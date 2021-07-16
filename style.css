@@ -1,0 +1,60 @@
+#title {
+  font-family: 'Monoton';
+  font-size: 50px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  justify-content: space-evenly;
+}
+body{
+    background-color: #000000;
+}
+.grid img{
+    margin-left: -7px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+.origami{
+    border-radius: 20px;
+    background-color:  #000000;
+    padding: 30px;
+    margin: 25px;
+    width: 185px;
+    font-family:Courier, monospace;
+    font-weight: 200;
+    font-size: 19px;
+    color: #ffffff;
+}
+.origami:hover{
+    transform: scale(1.1);  
+    border:8px double;
+    border-color: rgb(255, 255, 255);
+    border-radius: 80px;
+    justify-content: center;
+    background-color: #ffffff;
+    color: black;
+ }
+.grid{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+.bor{
+    border:8px double;
+    border-color: white;
+    border-radius: 10px
+}
+h1{
+    color: #ffffff;
+    font-family:Courier, monospace;
+  }
+h3{
+    text-decoration: underline;
+}  
+p{
+    color: #ffffff;
+    font-family:Courier, monospace;
+    font-weight: 200;
+    font-size: 19px;    
+}
